@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Update legend CSS */
+.info.legend i {
+  border: 0.25px solid black;
+  padding: 3px;
+  display: inline-block;
+  font-size: 14px;
+  color: black; /* Font color for the legend */
+}
+
+/* Adjust the font color based on the background color */
+.info.legend i[style*="background: green"] {
+  color: green;
+}
+
+.info.legend i[style*="background: blue"] {
+  color: blue;
+}
+
+.info.legend i[style*="background: yellow"] {
+  color: yellow;
+}
+
+.info.legend i[style*="background: orange"] {
+  color: orange;
+}
+
+.info.legend i[style*="background: red"] {
+  color: red;
+}
+
+.info.legend i[style*="background: purple"] {
+  color: white; /* Font color for visibility on the purple background */
+}
+
+/* Color specifications for the markers */
+.leaflet-marker-icon.green {
+  background-color: green;
+  color: black; /* Font color for the marker */
+}
+
+.leaflet-marker-icon.blue {
+  background-color: blue;
+  color: white; /* Font color for visibility on the blue background */
+}
+
+.leaflet-marker-icon.yellow {
+  background-color: yellow;
+  color: black; /* Font color for the marker */
+}
+
+.leaflet-marker-icon.orange {
+  background-color: orange;
+  color: black; /* Font color for the marker */
+}
+
+.leaflet-marker-icon.red {
+  background-color: red;
+  color: white; /* Font color for visibility on the red background */
+}
+
+.leaflet-marker-icon.purple {
+  background-color: purple;
+  color: white; /* Font color for visibility on the purple background */
+}
